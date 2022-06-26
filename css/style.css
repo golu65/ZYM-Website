@@ -1,0 +1,99 @@
+.logo{
+    display: inline-block;
+    
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.logo div{
+    color: white;
+    text-align: center;
+}
+
+.navbar{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    
+}
+
+.search{
+    position: absolute;
+    right: 33px;
+    top: 20px;
+    display: inline-block;
+    
+}
+
+.heading{
+    display: inline-block;
+}
+
+.heading li{
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.heading li a{
+
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+.heading li a:hover, a:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn{
+    margin: 0px 10px;
+    padding: 7px 17px;
+    background: rgb(23, 22, 22);
+    color: white;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.container{
+    
+    margin: 110px 15px;
+    padding: 40px;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+}
+
+.form input{
+    text-align: center;
+    display: block;
+    width: 304px;
+    padding: 4px;
+    border: 2px solid red;
+    margin: 10px auto;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    border-radius: 10px;
+    display: block;
+    width: 100px;
+    margin: auto;
+}
